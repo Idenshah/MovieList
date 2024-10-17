@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: rgb(246, 220, 126);
+    border: 0.2px solid rgb(246, 211, 84);
+}
+
+.box {
+    margin: 10px;
+    border: 0.2px solid rgb(238, 9, 9);
+    padding: 5px 10px;;
+    background-color: rgb(241, 232, 145);
+}
+
+.film {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.information {
+    margin: 0 10px;
+}
+
+
