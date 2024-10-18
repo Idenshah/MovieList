@@ -30,6 +30,7 @@ input{
     display:inline-block;
     justify-content: center;
     margin: 40px;
+    width: 100%;
 }
 
 .box {
@@ -38,7 +39,7 @@ input{
     border-radius: 8px;
     border: 1px solid rgb(203, 204, 207); 
     background-color: rgb(249, 250, 251);
-    width: 70%;
+    width: 40%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out; 
 }
