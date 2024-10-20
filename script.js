@@ -29,7 +29,15 @@ const displayMovies = (moviesToDisplay) => {
     filmBox.append(film, info);
 
     film.addEventListener("click", function () {
-      info.textContent = movieDescription;
+      if ( info.textContent === ''){
+        info.textContent = movieDescription;
+        film.style.color = 'red'
+      }
+      else{
+        info.textContent =''
+        film.style.color = "#1f2937";
+      }
+
     });
 
     moviesList.append(filmBox);
